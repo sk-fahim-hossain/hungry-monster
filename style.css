@@ -1,0 +1,24 @@
+#searchedFood{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+}
+.food-group{
+    width: 300px;
+    
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.card-body{
+    color: black !important;
+    text-decoration: none ;
+}
+
+#search-btn{
+    background-color: black;
+    color: white;
+}
