@@ -76,7 +76,6 @@ function singleFoodCard(meal){
                             <li>${meal.strIngredient6}</li>
                         </ol>
                         <h4>How it's made</h4>
-                        <p>${meal.strInstructions}</p>
                     </div>
                 </div>
             </a>
