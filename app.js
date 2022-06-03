@@ -62,7 +62,7 @@ function singleFoodCard(meal){
         singleCardDiv.addClass = "singleCardDiv"
         let singleCard = `
             <a href="#food-details" style="text-decoration: none;">
-                <div onclick="foodCardDetail('${meal.strMeal}')" class="card food-card" style="width: 25rem; text-align: center;">
+                <div onclick="foodCardDetail('${meal.strMeal}')" class="card food-card" style="width: 20rem; text-align: center;">
                     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${meal.strMeal}</h5>
